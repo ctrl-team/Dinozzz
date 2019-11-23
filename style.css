@@ -1,0 +1,29 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Inconsolata", monospace;
+}
+#points {
+  position: absolute;
+  z-index: -1;
+  font-size: 120px;
+  width: 100vw;
+  text-align: center;
+  padding: 3vh;
+}
+#elems{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#Start{
+  font-size: 30px;
+}
+#Score{
+  padding: 13% 0;
+}
