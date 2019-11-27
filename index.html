@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dino</title>
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/03ffbf34-8768-44ab-965d-074d06ad9eda%2Fdinoicon.png?v=1574621251948"
+    />
   </head>
   <body>
     <div id="all">
       <div id="elems">
+        <div id="highscorenew">
+          🎉New Highscore
+        </div>
+        <br />
         <div id="Start">
           Start
         </div>
         <div id="Score"></div>
         <div id="High">0</div>
       </div>
-      <div id="points">0</div>
+      <div id="pointswrap">
+        <div id="points">0</div>
+      </div>
       <canvas id="canvas"></canvas>
-      <script src="cactus.js"></script>
-      <script src="script.js"></script>
+      <button id="crouch">Crouch</button>
+      <script src="./cactus.js"></script>
+      <script src="./script.js"></script>
     </div>
   </body>
 </html>

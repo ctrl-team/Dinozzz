@@ -1,3 +1,10 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  user-select: none;
+}
 body {
   background: white;
   margin: 0;
@@ -5,15 +12,20 @@ body {
   overflow: hidden;
   font-family: "Inconsolata", monospace;
 }
-#points {
+#highscorenew {
+  font-size: 40px;
+}
+#pointswrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  height: 100vh;
   z-index: -1;
   font-size: 120px;
   width: 100vw;
-  text-align: center;
-  padding: 3vh;
 }
-#elems{
+#elems {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -21,9 +33,10 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-#Start{
+#Start {
   font-size: 30px;
+  cursor: pointer;
 }
-#Score{
+#Score {
   padding: 13% 0;
 }
